@@ -1,5 +1,6 @@
 body {
     margin:0;
+    font-family: "Roboto", sans-serif;
 }
 
 
@@ -31,7 +32,6 @@ body {
 .logo {
     color: #F9FAF8;
     font-size: 24px;
-    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;
 }
@@ -53,7 +53,6 @@ a {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
-    font-family: "Roboto", sans-serif;
     font-weight: 100;
     font-style: normal;
 }
@@ -70,4 +69,74 @@ button {
 .header-image {
     height: 250px;
     width: 250px;
+}
+
+.illustration-section {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+
+}
+
+.illustrationimage {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border: 3px solid #3882F6;
+    border-radius: 5px;
+}
+
+.illustration {
+    height: 400px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    margin: 32px;
+}
+
+.quote {
+    background: #E5E7EB;
+    padding: 64px;
+}
+
+.quote-text {
+    margin: 0 196px;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-credit {
+    margin: 0 196px;
+    text-align: end;
+    font-weight: bold;
+}
+
+.sign-up {
+    padding: 64px 128px;
+}
+
+.signup-box {
+    background: #3882F6;
+    padding: 32px 96px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.call-to-action-text {
+    color: white;
+    font-size: 24px;
+}
+
+.signup-button {
+    border: 2px solid white;
+    padding: 0px 24px;
+    align-items: start;
 }
